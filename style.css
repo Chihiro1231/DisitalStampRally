@@ -68,3 +68,11 @@
     padding-top: 20vh;
     color: gray;
 }
+
+.footer {
+  font-size: 20px;
+  color: white;
+  text-align:center;
+  background: #a5532f;
+  margin-top:5%; 
+}
