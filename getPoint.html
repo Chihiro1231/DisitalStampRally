@@ -65,9 +65,9 @@
           const response = await fetch(url,{headers: { 'Content-Type': 'text/plain'}})
           const result = await response.json()//textで受け取りたい場合は、.text
           //console.log(result[result.length-1])
-          const message = result[result.length-1].message
+          //const message = result[result.length-1].message
           //IDがmessageのところにmessageを代入
-          document.getElementById("message").innerText = message
+          //document.getElementById("message").innerText = message
           time = result[result.length-1].time
           document.getElementById("time").innerText = time
           stamp = result[result.length-1].stamp
